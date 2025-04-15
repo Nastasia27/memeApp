@@ -40,7 +40,7 @@ type ModalWindowProps = {
 
     return (
       <>
-        <Button onPress={onOpen} size="sm">Edit</Button>
+        <Button onPress={onOpen} color="primary" size="sm">Edit</Button>
         <Modal isOpen={isOpen} onOpenChange={onOpenChange}>
           <ModalContent>
             {(onClose) => (

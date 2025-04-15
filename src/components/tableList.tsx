@@ -56,11 +56,11 @@ export default function TableList() {
   }
 
   return (
-      <Table aria-label="table">
-        <TableHeader columns={columns}>
+      <Table aria-label="table" className="shadow-none ">
+        <TableHeader columns={columns} >
           {(column) => <TableColumn key={column.key}>{column.label}</TableColumn>}
         </TableHeader>
-        <TableBody items={memes}>
+        <TableBody items={memes} >
           {(item) => (
             <TableRow key={item.id}>
               {(columnKey) => {
