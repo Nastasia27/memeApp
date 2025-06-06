@@ -33,7 +33,7 @@ export default function CardList() {
           <CardBody className="pt-0">
             <h4 className="font-bold text-lg ">{meme.name}</h4>
             
-            <p className="text-sm text-gray-600 flex items-center">
+            <p className="text-md text-gray-600 flex items-center">
             <img src="/heart_icon.svg" alt="heart_icon" className="h-6"/>
                 Likes: {meme.likes}</p>
           </CardBody>

@@ -54,6 +54,7 @@ type ModalWindowProps = {
                 isRequired
               />
               <Input
+                type="url"
                 label="Image URL"
                 value={image}
                 onChange={(e) => setImage(e.target.value)}
