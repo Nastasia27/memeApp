@@ -19,7 +19,7 @@ export default function CardList() {
   }, []);
 
   return (
-    <div className="gap-8 grid grid-cols-1 sm:grid-cols-4">
+    <div className="gap-10 grid grid-cols-1 sm:grid-cols-4">
       {memes.map((meme) => (
         <Card key={meme.id} className="w-full p-2 shadow-[2px_4px_2px_-1px_rgba(0,0,0,0.1)]">
           <CardHeader className="flex justify-center">
