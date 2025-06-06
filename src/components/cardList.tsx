@@ -42,7 +42,7 @@ export default function CardList() {
               href={meme.image}
               target="_blank"
               color="primary"
-              className="text-sm hover:underline"
+              className="text-md hover:underline"
             >
               View image
             </Link>
